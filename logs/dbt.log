@@ -1,0 +1,152 @@
+2023-01-24 19:11:16.364094 (MainThread): Running with dbt=0.21.1
+2023-01-24 19:11:16.799663 (MainThread): Profile not loaded due to error: Runtime Error
+  Credentials in profile "default", target "dev" invalid: ['GCP project id'] is not valid under any of the given schemas
+2023-01-24 19:11:16.799792 (MainThread): No profile "default" found, continuing with no target
+2023-01-24 19:11:16.822627 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt.task.deps.DepsTask'>, debug=False, defer=None, log_cache_events=False, log_format='default', partial_parse=None, profile=None, profiles_dir='/Users/keshav.kundal/.dbt', project_dir=None, record_timing_info=None, rpc_method='deps', single_threaded=False, state=None, strict=False, target=None, test_new_parser=False, use_cache=True, use_colors=None, use_experimental_parser=False, vars='{}', warn_error=False, which='deps', write_json=True)
+2023-01-24 19:11:16.823389 (MainThread): Tracking: do not track
+2023-01-24 19:11:17.387361 (MainThread): Set downloads directory='/var/folders/w9/ghcx4hs564vcfbzzs_kqdcwr0000gq/T/dbt-downloads-kgi4v4jt'
+2023-01-24 19:11:17.388559 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/index.json
+2023-01-24 19:11:17.902693 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/index.json 200
+2023-01-24 19:11:17.903203 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/twitter_organic.json
+2023-01-24 19:11:18.370383 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/twitter_organic.json 200
+2023-01-24 19:11:18.371795 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/twitter_organic/0.2.0.json
+2023-01-24 19:11:18.876474 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/twitter_organic/0.2.0.json 200
+2023-01-24 19:11:18.877177 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/twitter_organic_source.json
+2023-01-24 19:11:19.246806 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/twitter_organic_source.json 200
+2023-01-24 19:11:19.248757 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/twitter_organic_source/0.2.0.json
+2023-01-24 19:11:19.700227 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/twitter_organic_source/0.2.0.json 200
+2023-01-24 19:11:19.700926 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/fivetran_utils.json
+2023-01-24 19:11:19.857286 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/fivetran_utils.json 200
+2023-01-24 19:11:19.871893 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/fivetran_utils/0.4.1.json
+2023-01-24 19:11:20.427140 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/fivetran_utils/0.4.1.json 200
+2023-01-24 19:11:20.427759 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/spark_utils.json
+2023-01-24 19:11:20.835783 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/spark_utils.json 200
+2023-01-24 19:11:20.838853 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/spark_utils/0.3.0.json
+2023-01-24 19:11:21.295753 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/spark_utils/0.3.0.json 200
+2023-01-24 19:11:21.296174 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+2023-01-24 19:11:21.436929 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+2023-01-24 19:11:21.467655 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils/1.0.0.json
+2023-01-24 19:11:21.835576 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils/1.0.0.json 200
+2023-01-24 19:11:21.836003 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/twitter_organic.json
+2023-01-24 19:11:22.017976 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/twitter_organic.json 200
+2023-01-24 19:11:22.019345 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/twitter_organic_source.json
+2023-01-24 19:11:22.377561 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/twitter_organic_source.json 200
+2023-01-24 19:11:22.379578 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/fivetran_utils.json
+2023-01-24 19:11:22.780863 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/fivetran_utils.json 200
+2023-01-24 19:11:22.795271 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/spark_utils.json
+2023-01-24 19:11:22.940556 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/spark_utils.json 200
+2023-01-24 19:11:22.943523 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+2023-01-24 19:11:23.099746 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+2023-01-24 19:11:23.130284 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/twitter_organic/0.2.0.json
+2023-01-24 19:11:23.295524 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/twitter_organic/0.2.0.json 200
+2023-01-24 19:11:23.295864 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/twitter_organic_source/0.2.0.json
+2023-01-24 19:11:23.679020 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/twitter_organic_source/0.2.0.json 200
+2023-01-24 19:11:23.679416 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/fivetran_utils/0.4.1.json
+2023-01-24 19:11:24.276161 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/fivetran_utils/0.4.1.json 200
+2023-01-24 19:11:24.276555 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/spark_utils/0.3.0.json
+2023-01-24 19:11:24.645174 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/spark_utils/0.3.0.json 200
+2023-01-24 19:11:24.645527 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils/1.0.0.json
+2023-01-24 19:11:24.796413 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils/1.0.0.json 200
+2023-01-24 19:11:24.796844 (MainThread): Installing fivetran/twitter_organic@0.2.0
+2023-01-24 19:11:26.795978 (MainThread):   Installed from version 0.2.0
+2023-01-24 19:11:26.796217 (MainThread):   Up to date!
+2023-01-24 19:11:26.796493 (MainThread): Installing fivetran/twitter_organic_source@0.2.0
+2023-01-24 19:11:27.909894 (MainThread):   Installed from version 0.2.0
+2023-01-24 19:11:27.910433 (MainThread):   Up to date!
+2023-01-24 19:11:27.910695 (MainThread): Installing fivetran/fivetran_utils@0.4.1
+2023-01-24 19:11:28.607340 (MainThread):   Installed from version 0.4.1
+2023-01-24 19:11:28.607582 (MainThread):   Up to date!
+2023-01-24 19:11:28.607822 (MainThread): Installing dbt-labs/spark_utils@0.3.0
+2023-01-24 19:11:29.238496 (MainThread):   Installed from version 0.3.0
+2023-01-24 19:11:29.238753 (MainThread):   Up to date!
+2023-01-24 19:11:29.239012 (MainThread): Installing dbt-labs/dbt_utils@1.0.0
+2023-01-24 19:11:30.696694 (MainThread):   Installed from version 1.0.0
+2023-01-24 19:11:30.696957 (MainThread):   Up to date!
+2023-01-24 19:11:30.700383 (MainThread): Flushing usage events
+2023-01-26 16:29:04.654126 (MainThread): Running with dbt=0.21.1
+2023-01-26 16:29:05.133024 (MainThread): Profile not loaded due to error: Runtime Error
+  Credentials in profile "default", target "dev" invalid: ['GCP project id'] is not valid under any of the given schemas
+2023-01-26 16:29:05.133146 (MainThread): No profile "default" found, continuing with no target
+2023-01-26 16:29:05.157675 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt.task.deps.DepsTask'>, debug=False, defer=None, log_cache_events=False, log_format='default', partial_parse=None, profile=None, profiles_dir='/Users/keshav.kundal/.dbt', project_dir=None, record_timing_info=None, rpc_method='deps', single_threaded=False, state=None, strict=False, target=None, test_new_parser=False, use_cache=True, use_colors=None, use_experimental_parser=False, vars='{}', warn_error=False, which='deps', write_json=True)
+2023-01-26 16:29:05.158707 (MainThread): Tracking: do not track
+2023-01-26 16:29:05.486857 (MainThread): Set downloads directory='/var/folders/w9/ghcx4hs564vcfbzzs_kqdcwr0000gq/T/dbt-downloads-_4r2kyxz'
+2023-01-26 16:29:05.488154 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/index.json
+2023-01-26 16:29:05.787378 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/index.json 200
+2023-01-26 16:29:05.787852 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/twitter_organic.json
+2023-01-26 16:29:06.127155 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/twitter_organic.json 200
+2023-01-26 16:29:06.128562 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/twitter_organic/0.2.0.json
+2023-01-26 16:29:06.474622 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/twitter_organic/0.2.0.json 200
+2023-01-26 16:29:06.475164 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/linkedin_pages.json
+2023-01-26 16:29:06.867671 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/linkedin_pages.json 200
+2023-01-26 16:29:06.869267 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/linkedin_pages/0.2.0.json
+2023-01-26 16:29:07.329176 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/linkedin_pages/0.2.0.json 200
+2023-01-26 16:29:07.329832 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/twitter_organic_source.json
+2023-01-26 16:29:07.685477 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/twitter_organic_source.json 200
+2023-01-26 16:29:07.687500 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/twitter_organic_source/0.2.0.json
+2023-01-26 16:29:08.114561 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/twitter_organic_source/0.2.0.json 200
+2023-01-26 16:29:08.115127 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/linkedin_pages_source.json
+2023-01-26 16:29:08.474201 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/linkedin_pages_source.json 200
+2023-01-26 16:29:08.476595 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/linkedin_pages_source/0.2.0.json
+2023-01-26 16:29:08.926433 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/linkedin_pages_source/0.2.0.json 200
+2023-01-26 16:29:08.927464 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/fivetran_utils.json
+2023-01-26 16:29:09.277771 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/fivetran_utils.json 200
+2023-01-26 16:29:09.291694 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/fivetran_utils/0.4.1.json
+2023-01-26 16:29:09.642218 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/fivetran_utils/0.4.1.json 200
+2023-01-26 16:29:09.643306 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/spark_utils.json
+2023-01-26 16:29:09.825361 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/spark_utils.json 200
+2023-01-26 16:29:09.828422 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/spark_utils/0.3.0.json
+2023-01-26 16:29:10.175204 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/spark_utils/0.3.0.json 200
+2023-01-26 16:29:10.175688 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+2023-01-26 16:29:10.319186 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+2023-01-26 16:29:10.352934 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils/1.0.0.json
+2023-01-26 16:29:10.745236 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils/1.0.0.json 200
+2023-01-26 16:29:10.745634 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/twitter_organic.json
+2023-01-26 16:29:10.895853 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/twitter_organic.json 200
+2023-01-26 16:29:10.897118 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/linkedin_pages.json
+2023-01-26 16:29:11.126724 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/linkedin_pages.json 200
+2023-01-26 16:29:11.128373 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/twitter_organic_source.json
+2023-01-26 16:29:11.266262 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/twitter_organic_source.json 200
+2023-01-26 16:29:11.268262 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/linkedin_pages_source.json
+2023-01-26 16:29:11.406143 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/linkedin_pages_source.json 200
+2023-01-26 16:29:11.408968 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/fivetran_utils.json
+2023-01-26 16:29:11.574004 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/fivetran_utils.json 200
+2023-01-26 16:29:11.588829 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/spark_utils.json
+2023-01-26 16:29:11.805563 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/spark_utils.json 200
+2023-01-26 16:29:11.809013 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+2023-01-26 16:29:11.946330 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+2023-01-26 16:29:11.979736 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/twitter_organic/0.2.0.json
+2023-01-26 16:29:12.125753 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/twitter_organic/0.2.0.json 200
+2023-01-26 16:29:12.126170 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/linkedin_pages/0.2.0.json
+2023-01-26 16:29:12.264690 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/linkedin_pages/0.2.0.json 200
+2023-01-26 16:29:12.265070 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/twitter_organic_source/0.2.0.json
+2023-01-26 16:29:12.461016 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/twitter_organic_source/0.2.0.json 200
+2023-01-26 16:29:12.461409 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/linkedin_pages_source/0.2.0.json
+2023-01-26 16:29:12.624751 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/linkedin_pages_source/0.2.0.json 200
+2023-01-26 16:29:12.625094 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/fivetran_utils/0.4.1.json
+2023-01-26 16:29:12.766052 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/fivetran_utils/0.4.1.json 200
+2023-01-26 16:29:12.766465 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/spark_utils/0.3.0.json
+2023-01-26 16:29:12.926977 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/spark_utils/0.3.0.json 200
+2023-01-26 16:29:12.927330 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils/1.0.0.json
+2023-01-26 16:29:13.101349 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils/1.0.0.json 200
+2023-01-26 16:29:13.101823 (MainThread): Installing fivetran/twitter_organic@0.2.0
+2023-01-26 16:29:15.169520 (MainThread):   Installed from version 0.2.0
+2023-01-26 16:29:15.169761 (MainThread):   Up to date!
+2023-01-26 16:29:15.170165 (MainThread): Installing fivetran/linkedin_pages@0.2.0
+2023-01-26 16:29:17.217925 (MainThread):   Installed from version 0.2.0
+2023-01-26 16:29:17.218448 (MainThread):   Up to date!
+2023-01-26 16:29:17.218700 (MainThread): Installing fivetran/twitter_organic_source@0.2.0
+2023-01-26 16:29:18.602891 (MainThread):   Installed from version 0.2.0
+2023-01-26 16:29:18.603142 (MainThread):   Up to date!
+2023-01-26 16:29:18.603466 (MainThread): Installing fivetran/linkedin_pages_source@0.2.0
+2023-01-26 16:29:20.820199 (MainThread):   Installed from version 0.2.0
+2023-01-26 16:29:20.820439 (MainThread):   Up to date!
+2023-01-26 16:29:20.820657 (MainThread): Installing fivetran/fivetran_utils@0.4.1
+2023-01-26 16:29:21.267091 (MainThread):   Installed from version 0.4.1
+2023-01-26 16:29:21.267338 (MainThread):   Up to date!
+2023-01-26 16:29:21.267566 (MainThread): Installing dbt-labs/spark_utils@0.3.0
+2023-01-26 16:29:22.309572 (MainThread):   Installed from version 0.3.0
+2023-01-26 16:29:22.309862 (MainThread):   Up to date!
+2023-01-26 16:29:22.310221 (MainThread): Installing dbt-labs/dbt_utils@1.0.0
+2023-01-26 16:29:23.795817 (MainThread):   Installed from version 1.0.0
+2023-01-26 16:29:23.796032 (MainThread):   Up to date!
+2023-01-26 16:29:23.798054 (MainThread): Flushing usage events
